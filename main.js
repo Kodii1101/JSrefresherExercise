@@ -1,15 +1,29 @@
- var number = `'lets try "double quote this"'`;
- const tryLang = document.querySelector("#try");
- /* rwe
- rwer
- wer
- wewe
- rwe
- rwe
-  
- multi line comment */
+/* var myArray =[["Jay", 24], ["hey", 84]];
+var removedArray = myArray.pop();
+
+myArray.push(["jOHNwICK", 35]);
+myArray.unshift(["jOHnWeak", 325])
+
+console.log(removedArray);
+console.log(myArray);
+ */
+let result=[];
 
 
-console.log(number = "sure oi");
+function taxThis (a,b){
+   const c = .12;
+   var ac = 0;
+   var bc = 0;
+   var ab = 0;
 
-tryLang.textContent = number[number.length-1];
+   return{
+       ac=a*c
+       bc=b*c
+       ab=a+b
+   }
+}
+
+result = taxThis(3500,4500);
+
+
+console.log(result);
