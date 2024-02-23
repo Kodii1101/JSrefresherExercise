@@ -7,23 +7,14 @@ myArray.unshift(["jOHnWeak", 325])
 console.log(removedArray);
 console.log(myArray);
  */
-let result=[];
-
 
 function taxThis (a,b){
    const c = .12;
-   var ac = 0;
-   var bc = 0;
-   var ab = 0;
+   var ac=a*c;
+   var bc=b*c;
+   var ab=a+b;
 
-   return{
-       ac=a*c
-       bc=b*c
-       ab=a+b
-   }
+    return ac + " " + bc + " " + ab;
 }
 
-result = taxThis(3500,4500);
-
-
-console.log(result);
+console.log(taxThis(3500,4500));
