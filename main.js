@@ -18,3 +18,11 @@ function taxThis (a,b){
 }
 
 console.log(taxThis(3500,4500));
+
+var testThis = {
+    x: "x ni bhai",
+    y: "y ni bhai",
+    z: "z ni bhai"
+};
+
+console.log(testThis.x);
