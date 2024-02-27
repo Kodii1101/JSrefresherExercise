@@ -8,7 +8,7 @@ console.log(removedArray);
 console.log(myArray);
  */
 
-function taxThis (a,b){
+/* function taxThis (a,b){
    const c = .12;
    var ac=a*c;
    var bc=b*c;
@@ -25,4 +25,6 @@ var testThis = {
     z: "z ni bhai"
 };
 
-console.log(testThis.x);
+console.log(testThis.x); */
+
+// IM DONE! 3:26:42 thank you Vanzkinz and freeCodeCamp! https://www.youtube.com/watch?v=PkZNo7MFNFg&ab_channel=freeCodeCamp.org
