@@ -1,0 +1,5 @@
+{
+    "editor.defaultFoldingRangeProvider": null,
+    "prettier.enable": true,
+    "editor.formatOnSave": true
+}
